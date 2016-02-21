@@ -1,0 +1,12 @@
+--
+README
+
+-- 
+
+String object has two forms, one is the known NSString object and the other is the known NSConstantString object. 
+
+
+you create a NSConstantString object by the @ notation, while the NSConstantString is a subclass to the NSString . 
+
+
+The NSString object can automatically works with the Multibyte charater, according to the Unicode standard.   NSString objects consists of unichar characters..

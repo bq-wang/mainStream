@@ -1,0 +1,26 @@
+-- README
+
+In this chapter, you'll learn about how to add methods to a class in a modular fashion through the use of categories and how to create a standardized list of methods for other to implements. 
+
+Categories
+
+Sometimes you might be working with a class definition and want to add some new  methods to it. For example, you might decide for your Fraction class that, in addition to
+the add: method for adding two fractions, you want to have methods to subtract, multiply, and divide two fractions.
+
+
+
+example of the use of the categories: 
+
+1. when your group is assigned with task to create classes, different people are assigned different tasks one handling with the file, the other handling with the screen and etc.... 
+2. you wish to add functions to an existing class such as NSArray, of course, you can write a new subclass of the NSArray class and the implements the new methods, but perhaps an easier way exists. 
+
+A practical solution for all these situations is "categories".A category provides an easy way for you to modularize the definition of a class into groups or categories of related methods.
+It also gives you an easy way to extend an existing class definition without even having access to the original source code for the class and without having to create a subclass.This is a powerful yet easy concept for you to learn.
+
+
+please check the fraction.mathops.m and other files. 
+
+By convention, the base name of the .h and .m files for a category is the class name followed by the category name. In our example, we would put the interface section for the category in a file named FractionMathOps.h and the implementation section in a file called
+FractionMathOps.m. Some programmers use a ¡®+¡¯ sign to separate the name of the category from the class, as in Fraction+MathOps.h.
+
+

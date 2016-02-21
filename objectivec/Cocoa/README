@@ -1,0 +1,39 @@
+-- 
+README
+
+--
+
+this file will introduce you the details on the Cocoa and Cocoa Touch..
+
+
+--
+
+Throughout this book you developed programs that had a simple user interfaces. 
+
+the framework that provides the support for your Mac OS X applications to provide a rich user experience are called Cocoa, which actually consists of three frameworks, the Foundation framework, with which you are already familiar
+the Core Data Framework, for easily storing and managing data that is database-driven, and the Application Kit (Or AppKit) framework . The last frameowrk provides the classes asscociated with Windows, buttons, lists and so on..
+
+the stack is as follow..
+
+
+				User
+				  ^
+				  |
+				  v
+			Application
+			Cocoa (Foundation, AppKit, And Core Data)
+			Application Services
+			Core Services
+			Mac OS X Kernel
+				  ^
+				  |
+				  v
+	Computer Resources (memory, disk, display, etc.)
+
+
+
+Application Services layer: Include supports for printing and graphics rendering, including Quartz, OpenGL, and QuickTime.
+Cocoa Layer: Cocoa includes the Foundation, Core Data, and AppKit frameworks
+Core Services: provides support at a lower or “core” level than that provided in the layers above it., you can find support for collections, networking, debugging, file management, folders, memory management, threads, time, and power.
+Kernel: kernel provides the low-level communication to the hardware in the form of device drivers. It manages the system’s resources, which includes
+scheduling programs for execution, managing memory and power, and performing basic I/O operations

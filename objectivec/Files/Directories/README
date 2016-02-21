@@ -1,0 +1,14 @@
+--
+README
+
+-- 
+
+This folder will show you how to manipulate directories with the Objective-C foundation classes. 
+
+
+things that we will cover in this chaprter incldue:
+
+
+how to query contents (file that is contained inside the directories)
+
+create directory and others. 

@@ -1,0 +1,7 @@
+-- 
+README
+
+In this chapter, you will leard about the features of the Objective-C language that makes it such a powerful programming and that distinguish it from some ohter object oriented 
+programming languages such as C++. This chapter describes three key concepts: Polymorphism, dynamic  typing, and dynamic binding. Polymorphism enables programs to be developed
+so that objects from different classes can define methods that share the same name. Dynamic typing defers the determination of the class that an object belongs to until the porgram 
+executing. Dynamic binding defers the the determination of the actual methods to invoke on an object until the program execution time. 

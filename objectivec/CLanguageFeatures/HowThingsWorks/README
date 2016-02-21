@@ -1,0 +1,14 @@
+--
+README
+
+-- 
+
+We will introduce on the "How things works". in this chapter, we  will examine some of the Objective-C construct with its underlying C mechanism.. Things that we will cover inthis chapter includes the following.. 
+
+Fact #1: Instance Variables Are Stored in Structures
+Fact #2: An Object Variable Is Really a Pointer
+Fact #3: Methods Are Functions, and Message Expressions Are Function Calls
+Fact #4: The id Type Is a Generic Pointer Type
+
+--
+

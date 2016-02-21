@@ -1,0 +1,19 @@
+define PROGRAM_template =
+hello: ../hello.m
+		$(CC) -o $@ $< $(CFLAGS)
+endef
+
+$(foreach prog,$(ALL_PROGS),$(eval $(call PROGRAM_template,$(prog))))
+
+
+#$(foreach prog, $(ALL_PROGS), $(eval $(call PROGRAM_template, $(prog))))
+
+
+hello: ../hello.m
+	$(CC) -o $@ $< $(CFLAGS)
+world: ../world.m
+	$(CC) -o $@ $< $(CFLAGS)
+
+
+// in this chapter, the contents of the Abstract methods is not discussed. 
+//	

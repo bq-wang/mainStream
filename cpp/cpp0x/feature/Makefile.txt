@@ -1,0 +1,13 @@
+ALLFILE=InitializationList Lambda
+ALL_OBJS=InitializationList.o Lambda.o
+
+CPPFLAGS=-std=gnu++0x -g
+
+all: $(ALLFILE)
+
+InitializationList: InitializationList.C
+	g++ $(CPPFLAGS) -o InitializationList InitializationList.C
+Lambda: Lambda.C
+	g++ $(CPPFLAGS) -o Lambda Lambda.C
+#TemplateAlias: TemplateAlias.C
+#	g++ $(CPPFLAGS) -o TemplateAlias TemplateAlias.C

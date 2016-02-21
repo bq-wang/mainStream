@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//GNUstep//DTD plist 0.9//EN" "http://www.gnustep.org/plist-0_9.xml">
+<plist version="0.9">
+<dict>
+    <key>abstract class</key>
+    <string>A class defined so other classes can inherit from it.</string>
+    <key>adopt</key>
+    <string>To implement all the methods defined in a protocol</string>
+    <key>archiving</key>
+    <string>Storing an object for later use. </string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+-- README
+
+We are going to write a custom archives from teh NSData. 
+
+because we have already seens that we uses some temporary files as the media of hte archiving/unarchiving, we want think why we need this medium?
+
+As mentioned in chapter 16. and NSData object can be used to reserve an area of memory into which you can store data.
+
+

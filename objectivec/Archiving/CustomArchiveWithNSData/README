@@ -1,0 +1,9 @@
+--
+README
+
+-- 
+
+In this folder, we will discuss the how to archive/unarchive with the NSData without using some temporary files.
+
+
+basically you can think that NSData is like the MemoryStream or hte byte[] that you can find in other progrmaming language such as C# or Java.

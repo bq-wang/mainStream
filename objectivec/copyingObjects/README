@@ -1,0 +1,12 @@
+--
+README
+
+-- 
+
+Copying object, 
+
+we will learn from this chapter that we will learn:
+
+@interface Fraction: NSObject <NSCopying>
+
+

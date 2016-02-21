@@ -1,0 +1,11 @@
+--
+README
+
+-- 
+
+this file is used as the README file for the functions part of the CLanguage features. there is one thing that I need to bring into your attentions, that is the
+Blocks inside the Extension, that the extension is not part of the ANSI C standard, it is a extension that is added by Apple Inc. 
+
+--
+
+However, trying to compile the code from the MinGW C compiler will generate some errors, and that is the error the prevent the usage of the block syntax inside the MinGW system.

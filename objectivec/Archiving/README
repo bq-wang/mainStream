@@ -1,0 +1,15 @@
+--
+README
+
+-- 
+
+In objective-C terms, archiving is the process of saving one or more objects in a format so that they can later be restored, Often object(s) to a file so that it can be subsequently be read back in. 
+
+We discuss two methods for archiving data in this chapter ..
+
+one is called the "property list" and the other is "key-valued coding".
+
+Archiving with XML property lists. 
+
+
+

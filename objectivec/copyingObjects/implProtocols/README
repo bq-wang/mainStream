@@ -1,0 +1,13 @@
+--
+README
+
+-- 
+
+implProtocols: Implementing the protocols..
+
+<NSCopying>
+
+
+if you want to discriminate between the Mutable copy and the immutable copy, you may implements:
+
+<NSMutableCopying>

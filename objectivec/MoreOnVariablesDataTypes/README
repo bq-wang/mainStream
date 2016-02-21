@@ -1,0 +1,10 @@
+-- 
+
+MoreOnVariablesDataTypes
+
+In this chapter, we go into more detail about variable scope, initialization methods for objects, and data types.
+
+we may have already know these type of scopes they are static, global and local.. we also has known some external types with the directive called "@class".
+
+---
+

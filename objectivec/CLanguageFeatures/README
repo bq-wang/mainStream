@@ -1,0 +1,24 @@
+README
+
+-- 
+
+in this file, we will discuss the some details of the objective-C programming language, which is the underlying language that provide the basic features. 
+
+ 
+to use the GnuStep's Block extension, you may use the following compiler flags.  
+ 
+ 
+ -fconstant-string-class=NSConstantString -fblocks -lobjc2 -lgnustep-base
+
+If that is the CLang C front , you may use the following. 
+
+clang -fblocks blocks-test.c -lBlocksRuntime
+
+
+ 
+References:
+ 
+ https://github.com/gnustep/gnustep-libobjc2
+ http://zh.wikipedia.org/wiki/%E5%9D%97_(C%E8%AF%AD%E8%A8%80%E6%89%A9%E5%B1%95)
+ http://www.google.com.hk/url?sa=t&rct=j&q=gnustep%20blocks%20extensions&source=web&cd=1&cad=rja&ved=0CCwQFjAA&url=%68%74%74%70%73%3a%2f%2f%67%69%74%68%75%62%2e%63%6f%6d%2f%67%6e%75%73%74%65%70%2f%67%6e%75%73%74%65%70%2d%6c%69%62%6f%62%6a%63%32&ei=MrBSUvOeA4KRigeE9oCQAg&usg=AFQjCNG2Fqe7vRYFTPn3Ar40LI_pWoPIRw&bvm=bv.53537100,d.aGc
+  http://www.google.com.hk/url?sa=t&rct=j&q=gnustep%20blocks%20extensions&source=web&cd=7&cad=rja&ved=0CFsQFjAG&url=%68%74%74%70%3a%2f%2f%67%6e%75%73%74%65%70%2e%62%6c%6f%67%73%70%6f%74%2e%63%6f%6d%2f&ei=MrBSUvOeA4KRigeE9oCQAg&usg=AFQjCNEFEmHp1Iu_iKKjtX7P1AiAO23d9g&bvm=bv.53537100,d.aGc

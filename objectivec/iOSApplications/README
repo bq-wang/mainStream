@@ -1,0 +1,71 @@
+-- 
+README
+
+--
+
+this file will introduce you with the necessary steps on how to write iOS applications.
+
+things that will be covered in this ReadME include the following.
+
+the iOS SDK
+Your first iPhone Application
+
+
+
+* the iOS SDK
+To write an iPhone application, you have to install Xcode adn the iOS SDK, this SDK is available free of charge from Apple's Web Site. To download the SDK, you will need to first register to be an Apple Developer. 
+
+the discussion for the iOS here is 
+	Xcode 4.2 
+	iOS SDK 5
+
+
+	
+You will pay like $99 to Apple for the Activation code, to run the code on some iXX devices, but you can run that on some Apple simulator.
+
+
+Apple distributes an iPhone simulator as part of the iOS SDK. The simulator replicates much of your iPhone environment, including its home screen, Safari web browser, Contacts application, and so on.
+
+
+
+Project Structure:
+
+there are those structures in the code..
+
+	*project-nameAppDelegate.h/.m
+An application delegate subclass is created for every new iOS application you create. In general, in this class are methods
+that control the application’s execution.
+
+	*view controller
+A view controller is responsible for managing the display of one or more "views" on your iPhone's display
+
+	*outlet
+Your objects can also have instance variables whose values correspond to some control in your iPhone’s window, such as the name on a label or the text
+displayed in an editable text box. These variables are known as outlets.
+
+
+
+
+
+For some more materials on the Resource/Tutorial/Gotchas, please refer to this:
+
+
+--
+
+Tutorial.txt
+
+
+--
+
+in this file, we will examine the GNUstep and programmming mini tutorials..
+
+
+
+
+--
+References:
+GNUstep programming mini tutorials: http://www.gnustep.it/nicola/Tutorials/
+First Steps in GNUstep GUI Programming: NSApplication, NSMenu: http://www.gnustep.it/nicola/Tutorials/FirstGUIApplication/
+A GNUstep Programming Tutorial: http://gnustep.made-it.com/GSPT/xml/Tutorial_en.html
+GNUstep appkit: http://www.gnustep.org/resources/documentation/Developer/Gui/ProgrammingManual/AppKit.pdf
+How to Set Up GNUstep for the East Asian Languages: http://www.gnustep.org/resources/documentation/User/Gui/LanguageSetup.html

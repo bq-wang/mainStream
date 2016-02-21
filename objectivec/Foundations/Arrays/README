@@ -1,0 +1,18 @@
+--
+README
+
+-- 
+
+Array class is the generic ? Objective-C abstraction of [] types.
+
+
+
+--
+
+things that we will cover in this chapter includes the following.
+
+
+
+NSArray 
+NSMutableArray
+Fast Enumerations

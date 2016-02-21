@@ -1,0 +1,17 @@
+include common.make
+#check this: 
+#  Makefile structure :http://www.gnustep.org/resources/documentation/Developer/Base/ProgrammingManual/manual_14.html#SEC168
+# Writing GNUstep Makefiles : http://www.gnustep.it/nicola/Tutorials/WritingMakefiles/
+
+#all: $(addprefix $(OBJDIR)/,$(ALL_PROGS))
+#	
+#$(addprefix $(OBJDIR)/,$(ALL_PROGS)): 
+#	echo $(CFLAGS) 
+#	$(MAKE) -C $(@D) -e ALL_PROGS="$(ALL_PROGS)" CFLAGS="$(CFLAGS)"
+
+
+#all:
+	#$(shell cat common.make)
+	#$(shell c:/ProgramFiles/GNUstep/GNUstep/System/Tools/gnustep-config --objc-flags)
+all:
+	$(MAKE) -C Debug -e ALL_PROGS="$(ALL_PROGS)" CFLAGS="$(CFLAGS)"

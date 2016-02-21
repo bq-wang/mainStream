@@ -1,0 +1,44 @@
+--
+README
+
+-- 
+
+We will discuss the memory managemnet that are supported in the Objective-C programming mode. 
+
+basically there are three types of Memory Management that are in place for the Objective-C programming language. 
+
+they are 
+
+
+1. Garbage collection
+2. Manual 
+3. automatic reference counting
+
+while the garbage collection is part of the Objective-C programming language, it is not supported on the iOS platform.
+
+Manual is where you can use the AutoreleasePool , when teh Foundation class has those new/alloc/copy/copyMutable returns, it can be added to the created AutoreleasePool and that shall be freezed when the pool itself drains.
+
+there is ARC (which is introduced to save the burden on the developer, where the compiler insert some necessary statement to release the pools )...
+
+
+
+Concerning the Manual way
+
+there are the following type of instruction to the object as regards to the AutoreleasePool, they are 
+
+1. autorelease
+2. retain
+
+
+and you will need to remember to call call release to release the reference count on variable, and when the reference count goes down to 0, the system will call dealloc to dealloc the memory associate with it.
+
+
+Concerning defining the class
+
+when defining the class, remember when you have members that is created with init/new/copy/copyMutable, you should remember to override the dealloc function inherited from the NSObject, a template is like this
+
+-(void) dealloc
+{
+	[member release];
+	[super dealloc];
+}

@@ -1,0 +1,43 @@
+--
+README
+
+-- 
+
+in this file we will discuss some of the bridges that you may come to use in a day-2-day basis. 
+
+for one of the challenges to work with the Objective-C objects with the C structures, e.g of this situations arise when you try to put a structure into a NSArray, or if you want to store a primitive int 
+into some foundation classes. 
+
+
+the rescue is the NSValue class.
+
+   
+the code fragement is as follow.
+
+
+/*
+
+
+CGPoint myPoint;
+NSValue *pointObj;
+NSMutableArray *touchPoints = [NSMutableArray array];
+...
+myPoint.x = 100; // set the point to (100, 200)
+myPoint.y = 200;
+...
+pointObj = [NSValue valueWithPoint: myPoint]; // make it an object
+[touchPoints addObject: pointObj];
+
+
+
+*/
+
+
+
+We cannnot build the project because we don't have the CoreGraphics/CoreGraphics.h
+
+/*
+# because we don't have the CoreGraphics/CoreGraphics.h, we cannot build the following code.
+# 
+# ALL_PROGS += nsvalue_eg
+*/

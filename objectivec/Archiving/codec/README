@@ -1,0 +1,22 @@
+--
+README
+
+-- 
+
+If you ever try to do the following :
+
+	[NSKeyedArchiver archiveRootObject: myAddressBook toFile: @"addrbook.arch"];
+
+you may get error:
+
+*** -[AddressBook encodeWithCoder:]: selector not recognized
+*** Uncaught exception: <NSInvalidArgumentException>
+*** -[AddressBook encodeWithCoder:]: selector not recognized
+archiveTest: received signal: Trace/BPT trap
+
+
+the reason is that your custom classes does not have this "encodeWithCoder: in the AddressBook class, but you never define such a method 
+
+
+
+

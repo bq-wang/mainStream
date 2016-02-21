@@ -1,0 +1,18 @@
+--
+
+
+README
+
+
+
+--- 
+
+
+In this chapter discusses some of the subtleties involved in copying objects. we introduced the concept of shallow versus deep copying and discuss how to make copies under the foundation framework. 
+
+
+to endow a class with the necessary copy and mutableCopy methods, we make our class to implement a method in conformance with the <NSCopying> protocol for making copies, if your class need to distinguish the mutable and immutable copies, you will need to 
+implement a method according to the <NSMutableCopying> protocol...
+
+
+
